@@ -1,9 +1,6 @@
 // app/api/send-email/route.ts
 import { NextResponse } from 'next/server';
-import sgMail from '@sendgrid/mail';
-
-// Configura la API Key de SendGrid desde las variables de entorno
-sgMail.setApiKey(process.env.SENDGRID_API_KEY || '');
+import { Resend } from 'resend';
 
 // Límites generosos: el formulario del sitio ya limita el mensaje a 120 caracteres,
 // así que ningún mensaje legítimo se acerca a estos topes.
@@ -47,6 +44,10 @@ export async function POST(request: Request): Promise<Response> {
   }
 
   try {
+    // El cliente se crea aquí y no al cargar el módulo: Resend lanza un error si falta
+    // RESEND_API_KEY, y eso rompería el build en entornos donde la variable no está definida.
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
     const emailText = `Nuevo mensaje de contacto de ${nombre}\nCorreo: ${correo}\nMensaje: ${mensaje}`;
     const emailHtml = `
       <div style="text-align: left;">
@@ -56,15 +57,23 @@ export async function POST(request: Request): Promise<Response> {
       </div>
     `;
 
-    const msg = {
-      to: 'psique_ser@outlook.com',  // Destinatario
-      from: 'email-service@amoxtli.tech',        // Remitente (debe estar verificado en SendGrid)
+    // Resend no lanza excepción cuando la API rechaza el envío: devuelve { data, error }.
+    const { error } = await resend.emails.send({
+      from: 'no-reply@amoxtli.tech', // Debe pertenecer a un dominio verificado en Resend
+      to: 'psique_ser@outlook.com',
       subject: 'Contacto desde el sitio web',
       text: emailText,
       html: emailHtml,
-    };
+    });
 
-    await sgMail.send(msg);
+    if (error) {
+      console.error('Error sending email:', error);
+      return NextResponse.json(
+        { error: 'Error sending email' },
+        { status: 500 }
+      );
+    }
+
     console.log('Email sent');
     return NextResponse.json({ message: 'Email sent successfully' });
   } catch (error: unknown) {
