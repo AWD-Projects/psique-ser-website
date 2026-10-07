@@ -1,20 +1,14 @@
-"use client";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import PageClient from "./PageClient";
 
-import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "../../theme";
-import Navbar from "@/components/Layout/Navbar";
-import Footer from "@/components/Layout/Footer";
-import BannerEspacioPsicoeducativo from "@/components/Space/BannerEspacioPsicoeducativo";
-import SessionsSection from "@/components/Space/SessionSection";
+export const metadata: Metadata = buildMetadata({
+    title: "Espacio psicoeducativo gratuito en línea",
+    description:
+        "Espacio virtual gratuito con contenidos actuales sobre salud mental, todos los fines de mes a las 9 pm (hora CDMX), en vivo por Facebook o por Zoom.",
+    path: "/espacio-psicoeducativo",
+});
 
-export default function EspacioPsicoeducativo() {
-    return (
-        <ThemeProvider theme={theme}>
-            <Navbar />     
-            <BannerEspacioPsicoeducativo />
-            <SessionsSection />
-            <Footer />
-        </ThemeProvider>
-    );
+export default function Page() {
+    return <PageClient />;
 }

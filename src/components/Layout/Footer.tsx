@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                                 }}
                             >
                                 <Image
-                                    src="/Logo/logoBlanco.png" // coloca aquí el path de tu logo
+                                    src="/Logo/LogoBlanco.png" // coloca aquí el path de tu logo
                                     alt="Psique & Ser"
                                     width={250} // ajusta el tamaño según lo necesites
                                     height={100}
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
                                 Espacio Psicoeducativo
                             </MuiLink>
                             <MuiLink
-                                href="/campanias"
+                                href="/campanas"
                                 color="inherit"
                                 underline="none"
                             >

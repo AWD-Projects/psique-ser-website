@@ -127,6 +127,7 @@ const HeroSwiper: React.FC<HeroSwiperProps> = ({ slides = defaultSlides }) => {
                                 </Typography>
                                 <Typography
                                     variant="h2"
+                                    component={i === 0 ? "h1" : "h2"}
                                     sx={{ mb: 3, fontWeight: 700 }}
                                 >
                                     {title}

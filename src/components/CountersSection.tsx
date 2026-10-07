@@ -63,7 +63,7 @@ const CountersSection: React.FC = () => {
                 sx={{ position: "relative", zIndex: 2 }}
             >
                 <Box sx={{ textAlign: "center", mb: { xs: 4, md: 6 } }}>
-                    <Typography variant="h1" sx={{ mb: 2 }}>
+                    <Typography variant="h1" component="h2" sx={{ mb: 2 }}>
                         Siempre listos para nuevos retos
                     </Typography>
                 </Box>

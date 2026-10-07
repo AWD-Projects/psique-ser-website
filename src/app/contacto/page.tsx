@@ -1,20 +1,14 @@
-"use client";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import PageClient from "./PageClient";
 
-import React from "react";
-import { ThemeProvider } from "@mui/material";
-import theme from "../../theme";
-import Navbar from "@/components/Layout/Navbar";
-import Footer from "@/components/Layout/Footer";
-import ContactSection from "@/components/Contact/ContactSection";
-import LocationSection from "@/components/Contact/LocationSection";
+export const metadata: Metadata = buildMetadata({
+    title: "Contacto y orientación psicológica",
+    description:
+        "Escríbenos o llámanos para recibir orientación y apoyo psicológico, o resolver tus dudas sobre horarios, servicios y campañas.",
+    path: "/contacto",
+});
 
-export default function Contacto() {
-    return (
-        <ThemeProvider theme={theme}>
-            <Navbar />
-            <ContactSection />
-            <LocationSection />
-            <Footer />
-        </ThemeProvider>
-    );
+export default function Page() {
+    return <PageClient />;
 }

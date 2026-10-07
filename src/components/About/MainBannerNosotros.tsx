@@ -74,7 +74,7 @@ const MainBannerNosotros: React.FC = () => {
                         >
                             Conócenos
                         </Typography>
-                        <Typography variant="h2" sx={{ mb: 2 }}>
+                        <Typography variant="h2" component="h1" sx={{ mb: 2 }}>
                             Psique & Ser A.C. Fundación
                         </Typography>
                         <Typography variant="body1" sx={{ mb: 3 }}>

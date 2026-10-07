@@ -56,7 +56,7 @@ const FounderSection: React.FC = () => {
                     >
                         <Box
                         component="img"
-                        src="/founder.jpg"
+                        src="/Founder.jpg"
                         alt="Founder"
                         sx={{
                             width: "60%",

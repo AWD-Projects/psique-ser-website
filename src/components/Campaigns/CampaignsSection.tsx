@@ -83,7 +83,7 @@ const CampaignsSection: React.FC = () => {
             }}
         >
             <Container sx={{ zIndex: 1 }}>
-                <Typography variant="h3" sx={{ mb: 2 }}>
+                <Typography variant="h3" component="h1" sx={{ mb: 2 }}>
                     Campañas de Solidaridad
                 </Typography>
                 <Typography variant="body1">

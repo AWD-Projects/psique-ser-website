@@ -48,7 +48,7 @@ const BannerEspacioPsicoeducativo: React.FC = () => {
               }}
         >
             <Container sx={{ zIndex: 1 }}>
-                <Typography variant="h3" sx={{ mb: 2, color:"white" }}>
+                <Typography variant="h3" component="h1" sx={{ mb: 2, color:"white" }}>
                     Espacio Psicoeducativo
                 </Typography>
                 <Typography variant="body1" sx={{color:"white"}}>

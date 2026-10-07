@@ -1,18 +1,14 @@
-"use client";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import PageClient from "./PageClient";
 
-import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "../../theme";
-import Navbar from "@/components/Layout/Navbar";
-import Footer from "@/components/Layout/Footer";
-import PeopleGrid from "@/components/Network/PeopleGrid";
+export const metadata: Metadata = buildMetadata({
+    title: "Red clínica de psicólogos y terapeutas",
+    description:
+        "Conoce a los especialistas de la red clínica de Psique & Ser: psicólogos y terapeutas con experiencia en salud mental y en el ámbito clínico.",
+    path: "/red-clinica",
+});
 
-export default function RedClinica() {
-    return (
-        <ThemeProvider theme={theme}>
-            <Navbar />
-            <PeopleGrid />
-            <Footer />
-        </ThemeProvider>
-    );
+export default function Page() {
+    return <PageClient />;
 }

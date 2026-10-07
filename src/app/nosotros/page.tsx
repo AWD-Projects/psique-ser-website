@@ -1,24 +1,14 @@
-"use client";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import PageClient from "./PageClient";
 
-import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "../../theme";
-import Navbar from "@/components/Layout/Navbar";
-import Footer from "@/components/Layout/Footer";
-import MainBannerNosotros from "@/components/About/MainBannerNosotros";
-import MissionVisionValuesSection from "@/components/About/MissionVisionValuesSection";
-import TherapyTabs from "@/components/About/TherapyTabs";
-import FAQSection from "@/components/About/FAQSection";
+export const metadata: Metadata = buildMetadata({
+    title: "Nosotros, psicología desde 2015",
+    description:
+        "Fundada en 2015 por Alan Torres y Ximena Mendoza, Psique & Ser reúne una red de especialistas en salud mental. Asociación Civil con marca registrada ante el IMPI.",
+    path: "/nosotros",
+});
 
-export default function Nosotros() {
-    return (
-        <ThemeProvider theme={theme}>
-              <Navbar />
-              <MainBannerNosotros />
-              <MissionVisionValuesSection />
-              <TherapyTabs />
-              <FAQSection />
-              <Footer />
-        </ThemeProvider>
-    );
+export default function Page() {
+    return <PageClient />;
 }

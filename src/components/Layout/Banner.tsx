@@ -52,7 +52,7 @@ const Banner: React.FC<BannerProps> = ({ backgroundImage, title, description }) 
   }}
 >
   <Container sx={{ position: "relative", zIndex: 1 }}>
-    <Typography variant="h3" sx={{ mb: 2, color: "#fff" }}>
+    <Typography variant="h3" component="h1" sx={{ mb: 2, color: "#fff" }}>
       {title}
     </Typography>
     <Typography variant="body1" sx={{ color: "#fff" }}>

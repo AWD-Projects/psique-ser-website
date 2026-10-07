@@ -340,6 +340,7 @@ const PeopleGrid: React.FC = () => {
             <Container>
                 <Typography
                     variant="h3"
+                    component="h1"
                     sx={{ mb: 7, textAlign: "center", fontWeight: 700 }}
                 >
                     Nuestra Red Clínica

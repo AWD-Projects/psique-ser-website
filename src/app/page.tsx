@@ -1,34 +1,15 @@
-"use client";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import { SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
+import PageClient from "./PageClient";
 
-import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "../theme";
-import Navbar from "@/components/Layout/Navbar";
-import HeroSwiper from "@/components/HeroSwiper";
-import FounderSection from "@/components/FounderSection";
-import ServiceSection from "@/components/Services/ServiceSection";
-import WhyPsiqueSer from "@/components/WhyPsiqueSer";
-import CTA from "@/components/Layout/CTA";
-import BlogSection from "@/components/Blog/BlogSection";
-import CountersSection from "@/components/CountersSection";
-import TestimoniesSection from "@/components/Testimonies/TestimoniesSection";
-import Footer from "@/components/Layout/Footer";
-import CarouselLogos from "@/components/Layout/CarouselLogos";
+export const metadata: Metadata = buildMetadata({
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    path: "/",
+    absoluteTitle: true,
+});
 
-export default function Home() {
-    return (
-        <ThemeProvider theme={theme}>
-              <Navbar />
-              <HeroSwiper />
-              <FounderSection />
-              <ServiceSection />
-              <CarouselLogos />
-              <WhyPsiqueSer />
-              <CTA />
-              <BlogSection />
-              <CountersSection />
-              <TestimoniesSection />
-              <Footer />
-        </ThemeProvider>
-    );
+export default function Page() {
+    return <PageClient />;
 }

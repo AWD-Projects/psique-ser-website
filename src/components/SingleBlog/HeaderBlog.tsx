@@ -31,7 +31,7 @@ const HeaderBlog: React.FC<HeaderBlogProps> = ({ post }) => {
                         </Typography>
                         </Box>
 
-                        <Typography variant="h3" sx={{ fontWeight: 700, mt: 1 }}>
+                        <Typography variant="h3" component="h1" sx={{ fontWeight: 700, mt: 1 }}>
                             {post.title}
                         </Typography>
                         <Typography variant="body2" sx={{ mt: 2, color: "#444" }}>

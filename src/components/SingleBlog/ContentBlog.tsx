@@ -43,6 +43,7 @@ const ContentBlog: React.FC<ContentBlogProps> = ({ post }) => {
               {block.type === "paragraph" && block.text && (
                 <Typography
                   variant="body1"
+                  component="div"
                   paragraph
                   dangerouslySetInnerHTML={{ __html: block.text }}
                   sx={{

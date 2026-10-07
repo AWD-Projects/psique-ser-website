@@ -18,7 +18,7 @@ const ContactSection: React.FC = () => {
         {/* Left Column - Info */}
         <Grid item xs={12} md={6}>
           <Box maxWidth="500px">
-            <Typography variant="h4" fontWeight="bold" gutterBottom>
+            <Typography variant="h4" component="h1" fontWeight="bold" gutterBottom>
               Contáctanos
             </Typography>
             <Typography variant="body1" color="text.secondary" paragraph>

@@ -17,7 +17,7 @@ export const blogData: BlogItem[] = [
         title: "Entre Sueños y Desvelos: ¿Cómo el sueño afecta tu bienestar?",
         excerpt: "Dormir bien no es un lujo, es una necesidad. Descubre cómo la calidad del sueño impacta tu salud física, mental y emocional, y aprende a mejorar tus hábitos para un descanso reparador.",
         slug: "post-30",
-        image: "/blog/post-30.png",
+        image: "/Blog/post-30.png",
         content: [
             { type: "paragraph", text: "A lo largo de nuestra vida, el sueño ha formado parte importante de nuestro desarrollo, por lo que es necesario que conozcamos más acerca de las cosas que suceden cuando nosotros dormimos, ya que, al dormir, también realizamos funciones que nos permiten tener un mejor rendimiento, desempeño al momento de despertar y dependiendo de nuestra calidad de sueño, será el impacto que tendrá en nuestro diario vivir. <br/><br/>El sueño es un proceso fisiológico que nos permite restablecer las funciones físicas y mentales para mantener un adecuado estado de salud y adaptarnos a las diversas situaciones que se presentan cada día, en el cual se producen las hormonas responsables de regular los patrones que intervienen con el hambre, la saciedad, el bienestar, el crecimiento y la reproducción.<br/><br/>El dormir tiene un impacto directo en las personas, en su salud mental y del cual pueden generarse diversas enfermedades y padecimientos por no poder llevar acabo esta acción que al pasar del tiempo se ha convertido en algo secundario debido al modo tan apresurado que tenemos de vivir, por diversos factores tanto económicos como sociales. Los seres humanos pasamos más de una tercera parte de nuestra vida durmiendo, lo que demuestra que dormir es una actividad fisiológica indispensable para vivir.<br/><br/>" },
             { type: "quote", text: "El que nosotros podamos dormir de manera adecuada y con las horas que corresponden de acuerdo a nuestra edad, nos permite tener múltiples beneficios como un mejor rendimiento académico y laboral." },
@@ -32,7 +32,7 @@ export const blogData: BlogItem[] = [
         title: "Heridas de la infancia desde la teoría del apego.",
         excerpt: "Comprende cómo los estilos de apego en la infancia impactan tus relaciones y bienestar emocional en la adultez. Sanar las heridas emocionales es clave para construir vínculos saludables.",
         slug: "post-29",
-        image: "/blog/post-29.png",
+        image: "/Blog/post-29.png",
         content: [
             { type: "paragraph", text: "Desde los primeros días de vida nos vinculamos emocionalmente con nuestros cuidadores, principalmente los padres o figuras que los suplen como abuelos, niñeras, tíos. John Bowlby (1958) ha demostrado que la tendencia a establecer esos vínculos es innata. A partir de esta conexión, el niño define un estilo para relacionarse con los demás.<br/><br/>Desde pequeños tenemos una necesidad innata de buscar esa cercanía para recibir amor, cuidados y protección en aquellas personas que se suponen cuidaran y nos amaran profundamente.<br/><br/>" },
             { type: "quote", text: "Necesitamos apegarnos para sobrevivir. Los cuidados que recibimos nos ayudan a transitar por la vida en lo que aprendemos a ser independientes y autosuficientes." },
@@ -49,7 +49,7 @@ export const blogData: BlogItem[] = [
         title: "Salud mental, un derecho universal",
         excerpt: "Tu bienestar mental es un derecho, no un lujo. Descubre cómo cuidar tu salud emocional y mejorar tu calidad de vida.",
         slug: "post-1",
-        image: "/blog/post-1.png",
+        image: "/Blog/post-1.png",
         content: [
             { type: "quote", text: "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades." },
             { type: "paragraph", text: "El 10 de octubre se conmemora el <strong> Día Mundial de la Salud Mental </strong> con el objetivo de concientizar acerca de los diferentes problemas de salud mental en todo el mundo y recordar que la salud mental es la base para construir vidas plenas y satisfactorias, por lo tanto, es un tema de interés para todos y no sólo para aquellos afectados por un trastorno mental transitorio o permanente." },
@@ -68,7 +68,7 @@ export const blogData: BlogItem[] = [
         title: "Suicidio: Mitos y realidades",
         excerpt: "Rompiendo mitos sobre el suicidio: descubre la verdad, derriba estigmas y aprende cómo la prevención puede salvar vidas. ",
         slug: "post-2",
-        image: "/blog/post-2.png",
+        image: "/Blog/post-2.png",
         "content": [
             {
               "type": "paragraph",
@@ -110,7 +110,7 @@ export const blogData: BlogItem[] = [
         title: "Competencias parentales: ¿Qué hace a una mamá, a un papá ser eficientes?",
         excerpt: "Ser un buen padre o madre no es cuestión de suerte, sino de competencias. Descubre cómo fortalecer tu rol parental y criar con confianza.",
         slug: "post-3",
-        image: "/blog/post-3.png",
+        image: "/Blog/post-3.png",
         "content": [
             {
               "type": "paragraph",
@@ -176,7 +176,7 @@ export const blogData: BlogItem[] = [
         title: "La ruptura del lazo social como consecuencia de la posmodernidad",
         excerpt: "En la era digital, ¿nos estamos desconectando más que nunca? Descubre cómo la posmodernidad impacta nuestras relaciones y lazos sociales",
         slug: "post-4",
-        image: "/blog/post-4.png",
+        image: "/Blog/post-4.png",
         "content": [
             {
               "type": "quote",
@@ -226,7 +226,7 @@ export const blogData: BlogItem[] = [
         title: "Disciplina positiva: un método de crianza para niños",
         excerpt: "Educar con amor y respeto es posible. Descubre cómo la disciplina positiva puede transformar la crianza de tus hijos.",
         slug: "post-5",
-        image: "/blog/post-5.png",
+        image: "/Blog/post-5.png",
         "content": [
             {
               "type": "paragraph",
@@ -296,7 +296,7 @@ export const blogData: BlogItem[] = [
         title: "La obesidad, como un tejido entre la alimentación y los afecto",
         excerpt: "La obesidad va más allá de la alimentación: descubre su conexión con las emociones y el afecto.",
         slug: "post-6",
-        image: "/blog/post-6.png",
+        image: "/Blog/post-6.png",
         "content": [
             {
               "type": "quote",
@@ -330,7 +330,7 @@ export const blogData: BlogItem[] = [
         title: "Relaciones sanas en la adolescencia: Amor y amistad",
         excerpt: "Amor y amistad en la adolescencia: claves para construir relaciones sanas y significativas.",
         slug: "post-7",
-        image: "/blog/post-7.png",
+        image: "/Blog/post-7.png",
         "content": [
             {
               "type": "paragraph",
@@ -360,7 +360,7 @@ export const blogData: BlogItem[] = [
         title: "Rituales de inicio de año y sus efectos en nuestra psique",
         excerpt: "Más que una tradición, los rituales de inicio de año impactan nuestra mente y emociones. Descubre su poder psicológico.",
         slug: "post-8",
-        image: "/blog/post-8.png",
+        image: "/Blog/post-8.png",
         "content": [
             {
                 "type": "quote",
@@ -398,7 +398,7 @@ export const blogData: BlogItem[] = [
         title: "¿Qué enfoque psicológico es el adecuado para mi para tomar terapia?",
         excerpt: "¿Quieres empezar terapia pero no sabes qué enfoque elegir? Descubre cuál se adapta mejor a ti y a tus necesidades.",
         slug: "post-9",
-        image: "/blog/post-9.png",
+        image: "/Blog/post-9.png",
         "content": [
             {
               "type": "paragraph",
@@ -444,7 +444,7 @@ export const blogData: BlogItem[] = [
         title: "La normalización del estrés",
         excerpt: "¿El estrés se ha convertido en tu día a día? Descubre por qué normalizarlo es peligroso y cómo gestionarlo mejor.",
         slug: "post-10",
-        image: "/blog/post-10.png",
+        image: "/Blog/post-10.png",
         "content": [
             {
                 "type": "paragraph",
@@ -474,7 +474,7 @@ export const blogData: BlogItem[] = [
         title: "La era de la procastinación",
         excerpt: "¿Postergas todo para después? Descubre por qué vivimos en la era de la procrastinación y cómo romper el ciclo.",
         slug: "post-11",
-        image: "/blog/post-11.png",
+        image: "/Blog/post-11.png",
         "content": [
             {
                 "type": "paragraph",
@@ -504,7 +504,7 @@ export const blogData: BlogItem[] = [
         title: "La dualidad éxito-fracaso",
         excerpt: "¿Fracaso o éxito? Descubre cómo reinterpretar ambos conceptos y convertir cada experiencia en una oportunidad de crecimiento.",
         slug: "post-12",
-        image: "/blog/post-12.png",
+        image: "/Blog/post-12.png",
         "content": [
             {
                 "type": "quote",
@@ -538,7 +538,7 @@ export const blogData: BlogItem[] = [
         title: "Año Nuevo, casualidades o causalidades nuevas",
         excerpt: "¿Tu destino está marcado por el azar o por tus decisiones? Descubre si el Año Nuevo trae casualidades o causalidades.",
         slug: "post-13",
-        image: "/blog/post-13.png",
+        image: "/Blog/post-13.png",
         "content": [
             {
                 "type": "quote",
@@ -572,7 +572,7 @@ export const blogData: BlogItem[] = [
         title: "La muerte en la vida",
         excerpt: "La muerte no es solo un final, sino una parte esencial de la vida. Comprenderla nos ayuda a valorar cada instante.",
         slug: "post-14",
-        image: "/blog/post-14.png",
+        image: "/Blog/post-14.png",
         "content": [
             {
                 "type": "paragraph",
@@ -602,7 +602,7 @@ export const blogData: BlogItem[] = [
         title: "La hibridez en nuestras vida",
         excerpt: "La hibridez transforma nuestra forma de vivir, conectar y adaptarnos a un mundo en constante cambio.",
         slug: "post-15",
-        image: "/blog/post-15.png",
+        image: "/Blog/post-15.png",
         "content": [
             {
                 "type": "paragraph",
@@ -636,7 +636,7 @@ export const blogData: BlogItem[] = [
         title: "Autoconcepto y equilibrio emocional en la adolescencia",
         excerpt: "Construir un autoconcepto sólido en la adolescencia es clave para el equilibrio emocional y el bienestar futuro.",
         slug: "post-16",
-        image: "/blog/post-16.png",
+        image: "/Blog/post-16.png",
         "content": [
             {
                 "type": "paragraph",
@@ -670,7 +670,7 @@ export const blogData: BlogItem[] = [
         title: "El mundo que habito",
         excerpt: "El mundo que habitamos refleja nuestras acciones. Comprenderlo es el primer paso para transformarlo.",
         slug: "post-17",
-        image: "/blog/post-17.png",
+        image: "/Blog/post-17.png",
         "content": [
             {
                 "type": "paragraph",
@@ -700,7 +700,7 @@ export const blogData: BlogItem[] = [
         title: "La ganancia secundaria. Una crítica a nuestra situación actual",
         excerpt: "Las crisis traen cambios, pero también ganancias ocultas. Una reflexión sobre nuestra realidad actual.",
         slug: "post-18",
-        image: "/blog/post-18.png",
+        image: "/Blog/post-18.png",
         "content": [
             {
                 "type": "quote",
@@ -726,7 +726,7 @@ export const blogData: BlogItem[] = [
         title: "Hablemos de adolescentes",
         excerpt: "La adolescencia es un viaje de cambios y descubrimientos. Hablemos de cómo acompañarlos en esta etapa clave.",
         slug: "post-19",
-        image: "/blog/post-19.png",
+        image: "/Blog/post-19.png",
         "content": [
             {
                 "type": "paragraph",
@@ -752,7 +752,7 @@ export const blogData: BlogItem[] = [
         title: "Sociedad y locura",
         excerpt: "La locura a lo largo de la historia: un reflejo de cómo la sociedad define y transforma lo que considera 'normal'.",
         slug: "post-20",
-        image: "/blog/post-20.png",
+        image: "/Blog/post-20.png",
         "content": [
             {
                 "type": "paragraph",
@@ -774,7 +774,7 @@ export const blogData: BlogItem[] = [
         title: "La familia en épocas modernas",
         excerpt: "La familia evoluciona con el tiempo, adaptándose a los cambios sociales y redefiniendo sus vínculos.",
         slug: "post-21",
-        image: "/blog/post-21.png",
+        image: "/Blog/post-21.png",
         "content": [
             {
                 "type": "paragraph",
@@ -804,7 +804,7 @@ export const blogData: BlogItem[] = [
         title: "¿Post Covid-19?",
         excerpt: "Más allá de la pandemia, el Covid-19 dejó huellas en nuestra salud mental y emocional. Reflexionemos sobre el futuro.",
         slug: "post-22",
-        image: "/blog/post-22.png",
+        image: "/Blog/post-22.png",
         "content": [
             {
                 "type": "quote",
@@ -838,7 +838,7 @@ export const blogData: BlogItem[] = [
         title: "¿Un año para el olvido?",
         excerpt: "El olvido no borra, transforma. Reflexionemos sobre lo vivido y cómo nos ayuda a construir el futuro.",
         slug: "post-23",
-        image: "/blog/post-23.png",
+        image: "/Blog/post-23.png",
         "content": [
             {
                 "type": "paragraph",
@@ -872,7 +872,7 @@ export const blogData: BlogItem[] = [
         title: "Un año pandémico no es un año perdido",
         excerpt: "Cada crisis trae aprendizaje. Un año pandémico no es un año perdido, sino una oportunidad de transformación.",
         slug: "post-24",
-        image: "/blog/post-24.png",
+        image: "/Blog/post-24.png",
         "content": [
             {
                 "type": "quote",
@@ -898,7 +898,7 @@ export const blogData: BlogItem[] = [
         title: "Consecuencias psicológicas en un año pandémico",
         excerpt: "La pandemia dejó huellas en nuestra mente. Reflexionemos sobre sus consecuencias psicológicas y cómo sanarlas.",
         slug: "post-25",
-        image: "/blog/post-25.png",
+        image: "/Blog/post-25.png",
         "content": [
             {
                 "type": "paragraph",
@@ -928,7 +928,7 @@ export const blogData: BlogItem[] = [
         title: "Un diferente retorno a las escuelas",
         excerpt: "El regreso a clases nunca fue tan diferente. Adaptarnos a la nueva educación es un reto para estudiantes y docentes.",
         slug: "post-26",
-        image: "/blog/post-26.png",
+        image: "/Blog/post-26.png",
         "content": [
             {
                 "type": "quote",
@@ -958,7 +958,7 @@ export const blogData: BlogItem[] = [
         title: "Nuestro estado emocional ante el COVID-19",
         excerpt: "La pandemia transformó nuestras emociones. Comprender nuestro estado emocional es clave para afrontar el cambio.",
         slug: "post-27",
-        image: "/blog/post-27.png",
+        image: "/Blog/post-27.png",
         "content": [
             {
                 "type": "paragraph",
@@ -988,7 +988,7 @@ export const blogData: BlogItem[] = [
         title: "Lidiar con el estrés en momentos de pandemia",
         excerpt: "El estrés en tiempos de pandemia es real, pero también lo son las herramientas para enfrentarlo.",
         slug: "post-28",
-        image: "/blog/post-28.png",
+        image: "/Blog/post-28.png",
         "content": [
             {
                 "type": "paragraph",

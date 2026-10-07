@@ -23,7 +23,7 @@ const blogData: BlogItem[] = [
         title: "Salud mental, un derecho universal",
         excerpt: "Tu bienestar mental es un derecho, no un lujo. Descubre cómo cuidar tu salud emocional y mejorar tu calidad de vida.",
         slug: "post-1",
-        image: "/blog/post-1.png",
+        image: "/Blog/post-1.png",
         content: [
             { type: "quote", text: "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades." },
             { type: "paragraph", text: "El 10 de octubre se conmemora el <strong> Día Mundial de la Salud Mental </strong> con el objetivo de concientizar acerca de los diferentes problemas de salud mental en todo el mundo y recordar que la salud mental es la base para construir vidas plenas y satisfactorias, por lo tanto, es un tema de interés para todos y no sólo para aquellos afectados por un trastorno mental transitorio o permanente." },
@@ -42,7 +42,7 @@ const blogData: BlogItem[] = [
         title: "Suicidio: Mitos y realidades",
         excerpt: "Rompiendo mitos sobre el suicidio: descubre la verdad, derriba estigmas y aprende cómo la prevención puede salvar vidas. ",
         slug: "post-2",
-        image: "/blog/post-2.png",
+        image: "/Blog/post-2.png",
         "content": [
             {
               "type": "paragraph",
@@ -84,7 +84,7 @@ const blogData: BlogItem[] = [
         title: "Competencias parentales: ¿Qué hace a una mamá, a un papá ser eficientes?",
         excerpt: "Ser un buen padre o madre no es cuestión de suerte, sino de competencias. Descubre cómo fortalecer tu rol parental y criar con confianza.",
         slug: "post-3",
-        image: "/blog/post-3.png",
+        image: "/Blog/post-3.png",
         "content": [
             {
               "type": "paragraph",
