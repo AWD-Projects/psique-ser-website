@@ -207,7 +207,7 @@ const Footer: React.FC = () => {
                             variant="body2"
                             sx={{ color: "rgba(255,255,255,0.7)" }}
                         >
-                            55 3445 8029
+                            55 3520 8014
                         </Typography>
                     </Grid>
 

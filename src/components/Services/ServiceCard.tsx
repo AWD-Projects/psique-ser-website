@@ -85,7 +85,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, image }) 
                         variant="text"
                         onClick={() => {
                             const mensaje = `¡Hola! Me gustaría solicitar más información sobre el servicio de ${title}. ¿Podrías ayudarme, por favor?`;
-                            const telefono = "5215534458029";
+                            const telefono = "525535208014";
                             const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
                             window.open(url, "_blank");
                         }}

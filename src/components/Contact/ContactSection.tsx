@@ -29,7 +29,7 @@ const ContactSection: React.FC = () => {
                 psique_ser@outlook.com
             </Typography>
             <Typography variant="body1" fontWeight={500} mb={1}>
-                +52 1 55 3445 8029
+                +52 55 3520 8014
             </Typography>
 
             {/* Additional Sections */}

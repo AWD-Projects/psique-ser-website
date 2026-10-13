@@ -155,7 +155,7 @@ const Navbar = () => {
             <Box sx={{ p: 2, mt: 2 }}>
                 <Button
                     component={Link}
-                    href="https://wa.me/5215534458029"
+                    href="https://wa.me/525535208014"
                     fullWidth
                     variant="contained"
                     color="primary"
@@ -269,7 +269,7 @@ const Navbar = () => {
                                 color="primary"
                                 onClick={() => {
                                     const mensaje = `¡Hola! Me gustaría agendar una cita con ustedes. ¿Podrías brindarme más información, por favor?`;
-                                    const telefono = "5215534458029";
+                                    const telefono = "525535208014";
                                     const url = `https://wa.me/${telefono}?text=${encodeURIComponent(
                                         mensaje
                                     )}`;

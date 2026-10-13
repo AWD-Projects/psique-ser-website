@@ -122,7 +122,7 @@ const MainBannerNosotros: React.FC = () => {
                             sx={{ textTransform: "none", color: "white" }}
                             onClick={() => {
                                 const mensaje = `¡Hola! Estoy interesado(a) en agendar una cita. ¿Me podrías brindar más información, por favor?`;
-                                const telefono = "5215534458029";
+                                const telefono = "525535208014";
                                 const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
                                 window.open(url, "_blank");
                             }}

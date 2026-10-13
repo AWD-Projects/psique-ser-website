@@ -10,7 +10,7 @@ export const SITE_DESCRIPTION =
 export const DEFAULT_OG_IMAGE = "/og-default.jpg";
 
 export const SITE_EMAIL = "psique_ser@outlook.com";
-export const SITE_PHONE = "+52 1 55 3445 8029";
+export const SITE_PHONE = "+52 55 3520 8014";
 
 export const SOCIAL_LINKS = [
     "https://www.facebook.com/psiqueyser/",

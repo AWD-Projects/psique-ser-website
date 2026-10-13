@@ -140,7 +140,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                             fullWidth
                             onClick={() => {
                                 const message = `Hola, quiero comprar ${quantity} unidad(es) del producto "${name}" por un total de $${(price * quantity).toFixed(2)}.`;
-                                const whatsappUrl = `https://wa.me/5215534458029?text=${encodeURIComponent(message)}`;
+                                const whatsappUrl = `https://wa.me/525535208014?text=${encodeURIComponent(message)}`;
                                 window.open(whatsappUrl, "_blank");
                                 handleClose();
                             }}
